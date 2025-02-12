@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +32,7 @@ namespace AternalJaguar
             Console.Title = "AternalJaguar";
             string[] ports = { "21", "22", "23", "25", "445", "3389", "5900", "4444", "10134", "1608", "1604", "50050", "139", "500", "80", "137", "139", "1433", "1434", "3306", "443" };
             Console.WriteLine("Enter the IP address: ");
+            Console.WriteLine("This can intrude firewalls and Intrusion detection systems");
             string ip = Console.ReadLine();
 
             try
